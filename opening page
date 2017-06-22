@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+div.background {
+    background: urlurl("https://userscontent2.emaze.com/images/a6ec4f90-6fe0-4ab8-b702-2587514dbc5a/113934fbbfca4459406972c9e9015fcf.jpg");
+    }
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>enter.</p>
+  </div>
+</div>
+
+</body>
+</html>
