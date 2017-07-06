@@ -1,32 +1,61 @@
 <html>
 <head>
 <style>
-div.background {
-    background: urlurl("https://userscontent2.emaze.com/images/a6ec4f90-6fe0-4ab8-b702-2587514dbc5a/113934fbbfca4459406972c9e9015fcf.jpg");
-    }
+font1 {
+	font-family: "Josefin Sans", serif;
+	color:#FFFFFF;
+	font-size: 28px;
+}
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext);
 
-div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+body {
+    background-image: url("http://www.salttechno.com/wp-content/uploads/2015/08/web-designer-pune-background.jpg");
+		background-repeat: repeat-y;
+}
+li a:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
 
-div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #64dbd1;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
 </style>
 </head>
 <body>
 
-<div class="background">
-  <div class="transbox">
-    <p>enter.</p>
-  </div>
-</div>
+<font1>kelly t.</font1>
+
+<ul>
+  <li><a class="active" href="#home">home</a></li>
+  <li><a href="#projects">projects</a></li>
+  <li><a href="#contact">contact</a></li>
+  <li><a href="#about">about</a></li>
+</ul>
+
+<script>
+window.alert("click OK or press ENTER to continue")
+</script>
 
 </body>
 </html>
